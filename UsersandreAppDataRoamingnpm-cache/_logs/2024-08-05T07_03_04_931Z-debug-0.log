@@ -1,0 +1,39 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v22.4.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\andre\Documents\VSCode\bro_code_react\.npmrc
+5 silly config load:file:C:\Users\andre\.npmrc
+6 silly config load:file:C:\Users\andre\Documents\VSCode\bro_code_react\UsersandreAppDataRoamingnpm\etc\npmrc
+7 verbose title npm create vite@latest
+8 verbose argv "create" "vite@latest"
+9 verbose logfile logs-max:10 dir:C:\Users\andre\Documents\VSCode\bro_code_react\UsersandreAppDataRoamingnpm-cache\_logs\2024-08-05T07_03_04_931Z-
+10 verbose logfile C:\Users\andre\Documents\VSCode\bro_code_react\UsersandreAppDataRoamingnpm-cache\_logs\2024-08-05T07_03_04_931Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmjs.org/npm 156ms
+14 http fetch GET 200 https://registry.npmjs.org/create-vite 138ms (cache miss)
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 silly idealTree buildDeps
+17 silly fetch manifest create-vite@5.4.0
+18 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/create-vite 88ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+21 silly placeDep ROOT create-vite@5.4.0 OK for:  want: 5.4.0
+22 silly reify moves {}
+23 silly audit bulk request { 'create-vite': [ '5.4.0' ] }
+24 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-5.4.0.tgz. Extracting by manifest.
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 177ms
+26 silly audit report {}
+27 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-5.4.0.tgz 715ms (cache miss)
+28 verbose cwd C:\Users\andre\Documents\VSCode\bro_code_react
+29 verbose os Windows_NT 10.0.19045
+30 verbose node v22.4.0
+31 verbose npm  v10.8.1
+32 notice
+32 notice New [36mpatch[39m version of npm available! [36m10.8.1[39m -> [34m10.8.2[39m
+32 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.8.2[39m
+32 notice To update run: [4mnpm install -g npm@10.8.2[24m
+32 notice  { force: true, [Symbol(proc-log.meta)]: true }
+33 verbose exit 0
+34 info ok
