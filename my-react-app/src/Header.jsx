@@ -5,15 +5,16 @@ function Header(){
             <h1>My Website</h1>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <hr/>
         </header>
     );
-    
+
 }
 
 export default Header
