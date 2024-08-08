@@ -1,10 +1,8 @@
-import Button from "./Button";
-import ProfilePicture from "./ProfilePicture";
+import MyConponent from "./MyComponent";
 
 function App() {
 
- 
-  return(<ProfilePicture/>);
+  return(<MyConponent/>);
 
 }
 
