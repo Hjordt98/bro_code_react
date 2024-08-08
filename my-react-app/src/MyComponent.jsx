@@ -1,38 +1,38 @@
-import React, {useState} from 'react'
+import React, {useState} from "react";
 
-function MyConponent(){
+function MyComponent(){
 
     const [name, setName] = useState("Guest");
-    const [age, setAge] = useState(0);
-    const [isEmployed, setIsEmployed] = useState(false);
+    const [quantity, setQuantity] = useState(1);
+    const [comment, setComment] = useState("")
 
-    const updateName = () => {
-        setName("Spongebob");
+    function handleNameChange(event){
+        setName(event.target.value);
     }
 
-    const updateAge = () => {
-        setAge(age + 1);
-    }
-    
-    const toggleEmployedStatus = () => {
-        setIsEmployed(!isEmployed);
+    function handleQuantityChange(even){
+        setQuantity(event.target.value);
     }
 
+    function handleCommentChange(event){
+        setComment(event.target.value);
+    }
 
     return(
             <div>
+                <input value={name} onChange={handleNameChange}/>
                 <p>Name: {name}</p>
-                <button onClick={updateName}>Set Name</button>
-                
-                <p>Age: {age}</p>
-                <button onClick={updateAge}>Increment age</button>
-                
-                <p>Is Employed: {isEmployed ? "yes" : "no"}</p>
-                <button onClick={toggleEmployedStatus}>Change work</button>
-                
+
+                <input value={quantity} onChange={handleQuantityChange} type="number"/>
+                <p>quantity: {quantity}</p>
+
+                <textarea value={comment} onChange={handleCommentChange}
+                placeholder="Enter delivery instructions"/>
+                <p>comment: {comment}</p>
             </div>
 
     );
+
 }
 
-export default MyConponent
+export default MyComponent
